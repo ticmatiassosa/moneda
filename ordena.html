@@ -11,80 +11,71 @@
     <body>
 	<div class="maindiv">
 		
-        <h1>Reconociendo la moneda uruguaya</h1>
+        <h1>Ordena los billetes</h1>
 		
-		<p>Muevete o presiona sobre ellos para verlos del lado contrario.</p>
+		<p>Coloca aqui los billetes de menor a mayor.</p>
+		
+		<div class="ordena"> 
+		
+		
+			<div class="box" id="div20" ondrop="drop(event)" ondragover="allowDrop(event)" > 20 pesos uruguayos </div>
+
+			<div class="box" id="div50" ondrop="drop(event)" ondragover="allowDrop(event)"> 50 pesos uruguayos </div>
+			
+			<div class="box" id="div100" ondrop="drop(event)" ondragover="allowDrop(event)"> 100 pesos uruguayos </div>
+			
+			<div class="box" id="div200" ondrop="drop(event)" ondragover="allowDrop(event)"> 200 pesos uruguayos </div>
+
+			<div class="box" id="div500" ondrop="drop(event)" ondragover="allowDrop(event)"> 500 pesos uruguayos </div>
+			
+			<div class="box" id="div1000" ondrop="drop(event)" ondragover="allowDrop(event)"> 1000 pesos uruguayos </div>
+			
+			<div class="box" id="div2000" ondrop="drop(event)" ondragover="allowDrop(event)"> 2000 pesos uruguayos </div>	
+		</div>
 		
 		<div class="muestra"> 
 			<div>
-				<img class="muestraBill" src="./billetes/20 a.jpg" draggable="true" ondragstart="drag(event)" id="20"
-				onmouseover="this.src='./billetes/20 r.jpg'"
-				onmouseout="this.src='./billetes/20 a.jpg'" />
-			</div>
-			<div>
-				<img class="muestraBill" src="./billetes/50 a n.jpg" draggable="true" ondragstart="drag(event)" id="50"
-				onmouseover="this.src='./billetes/50 r n.jpg'"
-				onmouseout="this.src='./billetes/50 a n.jpg'" />
+				<img class="muestraBill" src="./billetes/500 a.jpg" draggable="true" ondragstart="drag(event)" id="500"/>
 
 			</div>
 			<div>
-				<img class="muestraBill" src="./billetes/100 a.jpg" draggable="true" ondragstart="drag(event)" id="100"
-				onmouseover="this.src='./billetes/100 r.jpg'"
-				onmouseout="this.src='./billetes/100 a.jpg'" />
-			</div>
-			<div>
-				<img class="muestraBill" src="./billetes/200 a.jpg" draggable="true" ondragstart="drag(event)" id="200"
-				onmouseover="this.src='./billetes/200 r.jpg'"
-				onmouseout="this.src='./billetes/200 a.jpg'" />
+				<img class="muestraBill" src="./billetes/2000 a.jpg" draggable="true" ondragstart="drag(event)" id="2000"/>
 
 			</div>
 			<div>
-				<img class="muestraBill" src="./billetes/500 a.jpg" draggable="true" ondragstart="drag(event)" id="500"
-				onmouseover="this.src='./billetes/500 r.jpg'"
-				onmouseout="this.src='./billetes/500 a.jpg'" />
+				<img class="muestraBill" src="./billetes/50 a.jpg" draggable="true" ondragstart="drag(event)" id="50" />
+
+			</div>
+			
+			<div>
+				<img class="muestraBill" src="./billetes/200 a.jpg" draggable="true" ondragstart="drag(event)" id="200"/>
 
 			</div>
 			<div>
-				<img class="muestraBill" src="./billetes/1000 a.jpg" draggable="true" ondragstart="drag(event)" id="1000"
-				onmouseover="this.src='./billetes/1000 r.jpg'"
-				onmouseout="this.src='./billetes/1000 a.jpg'" />
-
+				<img class="muestraBill" src="./billetes/20 a.jpg" draggable="true" ondragstart="drag(event)" id="20"/>
 			</div>
 			<div>
-				<img class="muestraBill" src="./billetes/2000 a.jpg" draggable="true" ondragstart="drag(event)" id="2000"
-				onmouseover="this.src='./billetes/2000 r.jpg'"
-				onmouseout="this.src='./billetes/2000 a.jpg'" />
+				<img class="muestraBill" src="./billetes/100 a.jpg" draggable="true" ondragstart="drag(event)" id="100"/>
+			</div>
+			<div>
+				<img class="muestraBill" src="./billetes/1000 a.jpg" draggable="true" ondragstart="drag(event)" id="1000"/>
 
 			</div>
 		</div>
 		
+
+
 		<br/>
-		<br/>
-
-<div class="maindiv">
-		<div class="box" id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"> 20 pesos uruguayos </div>
-
-		<div class="box" id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"> 50 pesos uruguayos </div>
-		
-		<div class="box" id="div3" ondrop="drop(event)" ondragover="allowDrop(event)"> 100 pesos uruguayos </div>
-		
-		<div class="box" id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"> 200 pesos uruguayos </div>
-
-		<div class="box" id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"> 500 pesos uruguayos </div>
-		
-		<div class="box" id="div3" ondrop="drop(event)" ondragover="allowDrop(event)"> 1000 pesos uruguayos </div>
-		
-		<div class="box" id="div3" ondrop="drop(event)" ondragover="allowDrop(event)"> 2000 pesos uruguayos </div>
 
 		
-	
-				
+		<img class="controles" onclick="history.back()" src="./iconos/previous.png" />
+
 	</div>
-		</div>
 	<br/>
+	
 
     </body>
 	<footer>
-        &#169; Esta herramienta pertenece a TerapiaOcupacional.UY
+        &#169; Esta herramienta fue desarrollada para TerapiaOcupacional.UY
 	</footer>
 </html>
