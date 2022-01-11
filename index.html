@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+	<title>Reconociendo la moneda</title>
+
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+	
+    </head>
+    <body>
+	<div class="maindiv">
+		
+        <h1>Reconociendo la moneda uruguaya</h1>
+		
+		<p>Muevete o presiona sobre ellos para verlos del lado contrario.</p>
+		
+		<div class="muestra"> 
+			<div>
+				<img class="muestraBill" src="./billetes/20 a.jpg" id="20"
+				onmouseover="this.src='./billetes/20 r.jpg'"
+				onmouseout="this.src='./billetes/20 a.jpg'" />
+				20 pesos uruguayos <img class="sound" src="./iconos/sound.png" id="20 pesos" onClick="sound(event)" role="button"/>
+			</div>
+			<div>
+				<img class="muestraBill" src="./billetes/50 a n.jpg" id="50"
+				onmouseover="this.src='./billetes/50 r n.jpg'"
+				onmouseout="this.src='./billetes/50 a n.jpg'" />
+				50 pesos uruguayos <img class="sound" src="./iconos/sound.png" id="50 pesos" onClick="sound(event)" role="button"/>
+
+			</div>
+			<div>
+				<img class="muestraBill" src="./billetes/100 a.jpg" id="100"
+				onmouseover="this.src='./billetes/100 r.jpg'"
+				onmouseout="this.src='./billetes/100 a.jpg'" />
+				100 pesos uruguayos	<img class="sound" src="./iconos/sound.png" id="100 pesos" onClick="sound(event)" role="button"/>
+			</div>
+			<div>
+				<img class="muestraBill" src="./billetes/200 a.jpg" id="200"
+				onmouseover="this.src='./billetes/200 r.jpg'"
+				onmouseout="this.src='./billetes/200 a.jpg'" />
+				200 pesos uruguayos <img class="sound" src="./iconos/sound.png" id="200 pesos" onClick="sound(event)" role="button"/>
+
+			</div>
+			<div>
+				<img class="muestraBill" src="./billetes/500 a.jpg" id="500"
+				onmouseover="this.src='./billetes/500 r.jpg'"
+				onmouseout="this.src='./billetes/500 a.jpg'" />
+				500 pesos uruguayos <img class="sound" src="./iconos/sound.png" id="500 pesos" onClick="sound(event)" role="button" />
+
+			</div>
+			<div>
+				<img class="muestraBill" src="./billetes/1000 a.jpg" id="1000"
+				onmouseover="this.src='./billetes/1000 r.jpg'"
+				onmouseout="this.src='./billetes/1000 a.jpg'" />
+				1000 pesos uruguayos <img class="sound" src="./iconos/sound.png" id="1000 pesos" onClick="sound(event)" role="button" />
+
+			</div>
+			<div>
+				<img class="muestraBill" src="./billetes/2000 a.jpg" id="2000"
+				onmouseover="this.src='./billetes/2000 r.jpg'"
+				onmouseout="this.src='./billetes/2000 a.jpg'" />
+				2000 pesos uruguayos <img class="sound" src="./iconos/sound.png" id="2000 pesos" onClick="sound(event)" role="button"/>
+
+			</div>
+		</div>
+		
+	
+				
+	</div>
+	
+	<br/>
+
+    </body>
+	<footer>
+        &#169; Esta herramienta pertenece a TerapiaOcupacional.UY
+	</footer>
+</html>
